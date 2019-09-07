@@ -1,0 +1,13 @@
+welcome: Welcome to memory game. Want to hear the instructions?
+
+instructions: I'm going to say three numbers for you to repeat backwards. Ready?
+
+ready: Ready?
+
+round: Can you repeat the numbers {{ numbers|join(", ") }} backwards?
+
+leave: Okay, goodbye.
+
+win: <speak> <say-as interpret-as="interjection">cowabunga</say-as> </speak>
+
+lose: Sorry, that's the wrong answer.
